@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<div class="center"> 
+     <img src="https://i.pinimg.com/564x/88/bb/0e/88bb0ef4c6930115987c82220e0c8623.jpg"
+           alt="img"  class="logo">
+           <div>
+            <label >Search City</label>
+            <input type="text" id="city" placeholder="Search city">
+            <button  onclick="getwether(),forecast()"  class="btn" >Search</button>
+           </div>
+    
+
+</div>
+
+<div id="dataDiv" > </div>
+
+<h3 id="heading"></h3>
+<div id="flex">
+     <!-- forcast div -->
+    
+     <div id="forecastDiv" > </div>
+
+
+    <!-- map div -->
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <!-- <iframe
+              width="600"
+             height="500"
+             id="gmap_canvas" 
+             src="https://maps.google.com/maps?q=mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+             frameborder="0" 
+             scrolling="no"
+             marginheight="0"
+             marginwidth="0">   
+             </iframe>   -->
+             <!-- <a href="https://putlocker-is.org"></a><br> -->
+                
+           </div>
+       </div>
+
+
+</div>
+
+
+</body>
+</html>
+<script src="./script/index.js"></script>

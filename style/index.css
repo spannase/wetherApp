@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, #488fb1, #52abbe, #6cc6c6, #93e0cb, #c1f8cf);
+}
+
+
+.mapouter{
+    /* border: 1px solid red; */
+     margin-left: 20px;
+}
+#forecastDiv{
+    display: flex;
+
+}
+#forecastDiv>div{
+    height:270px;
+    text-align:center;
+    border: 1px solid black;
+}
+ #forecastDiv>div>img{
+   width:40px;
+} 
+ #flex{
+     display: flex;
+ }
+
+ .center{
+     display: flex;
+     border:1px solid black;
+     text-align: center;
+     padding: 2px ;
+     margin-bottom: 10px;
+    justify-content: space-between;
+ }
+ .center div{
+     margin-right: 30%;
+     padding: 10px;
+ }
+ .btn{
+    display: inline-block ;
+    background: rgb(117, 117, 221);
+    color: var(--color-black);
+    padding:10px 20px;
+    border:1px solid transparent;
+    font-weight: 500;
+     transition:all;
+    border-radius: 30px;
+   
+}
+
+.btn:hover{
+    background: transparent;
+    color: rgb(104, 104, 196);
+    border-color: rgb(117, 117, 221);
+}
+input{
+    padding: 5px 20px;
+}
+
+.logo{
+    height:60px;
+    width: 90px;
+ 
+}
